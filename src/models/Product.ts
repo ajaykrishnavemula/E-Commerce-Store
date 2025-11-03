@@ -361,4 +361,3 @@ ProductSchema.methods.calculateAverageRating = async function (this: IProduct) {
 
 export default mongoose.model<IProduct>('Product', ProductSchema);
 
-// Made with Bob

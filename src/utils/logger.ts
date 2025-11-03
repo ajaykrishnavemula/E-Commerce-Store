@@ -56,4 +56,3 @@ export const loggerMiddleware = (req: any, res: any, next: any) => {
   next();
 };
 
-// Made with Bob

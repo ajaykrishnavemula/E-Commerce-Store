@@ -88,4 +88,3 @@ export interface CartModel extends Document, ICartMethods {
   expiresAt?: Date;
 }
 
-// Made with Bob

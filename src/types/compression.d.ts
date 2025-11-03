@@ -17,4 +17,3 @@ declare module 'compression' {
   export = compression;
 }
 
-// Made with Bob

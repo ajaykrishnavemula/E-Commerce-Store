@@ -10,4 +10,3 @@ const notFoundMiddleware = (req: Request, res: Response) => {
 
 export default notFoundMiddleware;
 
-// Made with Bob

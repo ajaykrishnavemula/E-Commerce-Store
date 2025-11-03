@@ -37,4 +37,3 @@ export interface IWishlistDocument extends mongoose.Document, IWishlistMethods {
   updatedAt: Date;
 }
 
-// Made with Bob

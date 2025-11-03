@@ -103,4 +103,3 @@ export interface IProduct extends Document {
   updatedAt: Date;
 }
 
-// Made with Bob

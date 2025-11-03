@@ -29,4 +29,3 @@ router.delete('/:id/items/:productId', authenticateUser, removeItemFromWishlist)
 
 export default router;
 
-// Made with Bob

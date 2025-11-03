@@ -374,4 +374,3 @@ export const createDefaultWishlist = async (userId: string): Promise<void> => {
   }
 };
 
-// Made with Bob

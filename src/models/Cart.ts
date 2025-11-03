@@ -369,4 +369,3 @@ CartSchema.methods.setShippingMethod = async function(methodId: string) {
 
 export default mongoose.model<CartModel>('Cart', CartSchema);
 
-// Made with Bob

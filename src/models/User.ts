@@ -247,4 +247,3 @@ UserSchema.methods.removeFromWishlist = async function (this: UserModel, product
 
 export default mongoose.model<UserModel>('User', UserSchema);
 
-// Made with Bob

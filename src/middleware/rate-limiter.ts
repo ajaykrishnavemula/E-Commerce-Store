@@ -56,4 +56,3 @@ const checkoutLimiter = rateLimit({
 export { rateLimiter, authLimiter, checkoutLimiter };
 export default rateLimiter;
 
-// Made with Bob

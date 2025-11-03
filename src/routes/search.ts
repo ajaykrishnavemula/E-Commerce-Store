@@ -18,4 +18,3 @@ router.post('/reindex', authenticateUser, adminMiddleware, reindexProducts);
 
 export default router;
 
-// Made with Bob

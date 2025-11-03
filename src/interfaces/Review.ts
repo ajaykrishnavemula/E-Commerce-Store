@@ -40,4 +40,3 @@ export interface IReviewDocument extends mongoose.Document, IReviewMethods {
   updatedAt: Date;
 }
 
-// Made with Bob

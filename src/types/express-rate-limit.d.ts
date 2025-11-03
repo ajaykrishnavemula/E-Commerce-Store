@@ -24,4 +24,3 @@ declare module 'express-rate-limit' {
   export = rateLimit;
 }
 
-// Made with Bob

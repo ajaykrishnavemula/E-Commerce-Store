@@ -6,4 +6,3 @@ declare module 'xss-clean' {
   export = xss;
 }
 
-// Made with Bob

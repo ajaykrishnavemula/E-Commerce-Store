@@ -302,4 +302,3 @@ const getSortOptions = (sort: string): Record<string, 1 | -1> => {
   }
 };
 
-// Made with Bob

@@ -412,4 +412,3 @@ OrderSchema.statics.generateOrderNumber = async function() {
 
 export default mongoose.model<IOrder, IOrderModel>('Order', OrderSchema);
 
-// Made with Bob

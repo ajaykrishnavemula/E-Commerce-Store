@@ -30,4 +30,3 @@ router.get('/pending', authenticateUser, adminMiddleware, getPendingReviews);
 
 export default router;
 
-// Made with Bob

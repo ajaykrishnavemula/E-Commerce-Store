@@ -30,4 +30,3 @@ router.post('/merge', mergeCart);
 
 export default router;
 
-// Made with Bob

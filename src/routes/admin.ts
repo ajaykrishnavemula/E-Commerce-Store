@@ -23,4 +23,3 @@ router.get('/analytics/users', getUserAnalytics);
 
 export default router;
 
-// Made with Bob

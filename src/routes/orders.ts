@@ -28,4 +28,3 @@ router.get('/admin/stats', getOrderStats);
 
 export default router;
 
-// Made with Bob

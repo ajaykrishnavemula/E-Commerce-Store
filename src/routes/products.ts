@@ -36,4 +36,3 @@ router.patch('/:id/inventory', updateProductInventory);
 
 export default router;
 
-// Made with Bob

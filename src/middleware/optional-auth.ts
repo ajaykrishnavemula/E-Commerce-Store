@@ -39,4 +39,3 @@ const optionalAuthMiddleware = async (req: Request, res: Response, next: NextFun
 
 export default optionalAuthMiddleware;
 
-// Made with Bob

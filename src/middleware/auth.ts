@@ -76,4 +76,3 @@ export {
 
 export default authenticateUser;
 
-// Made with Bob

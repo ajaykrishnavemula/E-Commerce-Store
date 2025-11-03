@@ -65,4 +65,3 @@ export class ServiceUnavailableError extends CustomAPIError {
 
 export default CustomAPIError;
 
-// Made with Bob

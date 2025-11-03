@@ -107,4 +107,3 @@ const Wishlist = mongoose.model<IWishlistDocument, WishlistModel>('Wishlist', Wi
 
 export default Wishlist;
 
-// Made with Bob

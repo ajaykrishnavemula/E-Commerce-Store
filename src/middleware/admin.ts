@@ -17,4 +17,3 @@ const adminMiddleware = (req: Request, res: Response, next: NextFunction) => {
 
 export default adminMiddleware;
 
-// Made with Bob

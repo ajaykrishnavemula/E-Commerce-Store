@@ -23,4 +23,3 @@ export {
   ServiceUnavailableError,
 };
 
-// Made with Bob

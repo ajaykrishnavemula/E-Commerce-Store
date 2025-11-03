@@ -10,4 +10,3 @@ declare module 'cookie-parser' {
   export = cookieParser;
 }
 
-// Made with Bob

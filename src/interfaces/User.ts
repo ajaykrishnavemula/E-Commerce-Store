@@ -74,4 +74,3 @@ export interface UserModel extends Document, IUserMethods {
   updatedAt: Date;
 }
 
-// Made with Bob

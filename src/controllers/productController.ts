@@ -392,4 +392,3 @@ export const updateProductInventory = async (req: Request, res: Response) => {
   });
 };
 
-// Made with Bob
