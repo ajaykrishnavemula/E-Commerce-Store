@@ -30,6 +30,7 @@ import searchRoutes from './routes/search';
 import reviewRoutes from './routes/reviews';
 import wishlistRoutes from './routes/wishlists';
 import adminRoutes from './routes/admin';
+import paymentRoutes from './routes/payment';
 
 // Initialize express app
 const app: Express = express();
@@ -88,6 +89,7 @@ app.use('/api/v1/search', searchRoutes);
 app.use('/api/v1/reviews', reviewRoutes);
 app.use('/api/v1/wishlists', wishlistRoutes);
 app.use('/api/v1/admin', adminRoutes); // Admin routes
+app.use('/api/v1/payment', paymentRoutes); // Payment routes
 
 // Handle 404 errors
 app.use(notFoundMiddleware);

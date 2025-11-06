@@ -114,6 +114,10 @@ export const logout = async (req: Request, res: Response) => {
  * @access  Private
  */
 export const getCurrentUser = async (req: Request, res: Response) => {
+  if (!req.user) {
+    throw new UnauthenticatedError('Not authenticated');
+  }
+  
   const user = await User.findById(req.user.userId);
   
   if (!user) {
@@ -140,6 +144,10 @@ export const updateProfile = async (req: Request, res: Response) => {
   if (email) updateData.email = email;
   if (address) updateData.address = address;
   if (phoneNumber) updateData.phoneNumber = phoneNumber;
+  
+  if (!req.user) {
+    throw new UnauthenticatedError('Not authenticated');
+  }
   
   // Update user
   const user = await User.findByIdAndUpdate(
@@ -173,6 +181,10 @@ export const updatePassword = async (req: Request, res: Response) => {
     throw new BadRequestError('Please provide current and new password');
   }
   
+  if (!req.user) {
+    throw new UnauthenticatedError('Not authenticated');
+  }
+  
   // Find user
   const user = await User.findById(req.user.userId).select('+password');
   
@@ -203,6 +215,10 @@ export const updatePassword = async (req: Request, res: Response) => {
  * @access  Private
  */
 export const deleteAccount = async (req: Request, res: Response) => {
+  if (!req.user) {
+    throw new UnauthenticatedError('Not authenticated');
+  }
+  
   await User.findByIdAndDelete(req.user.userId);
   
   logger.info(`User account deleted: ${req.user.userId}`);

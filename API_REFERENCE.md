@@ -1,4 +1,4 @@
-# Commerce-Pro-API - Complete API Reference
+# Commerce-Store - Complete API Reference
 
 > **Comprehensive API documentation for the E-Commerce Platform**
 
